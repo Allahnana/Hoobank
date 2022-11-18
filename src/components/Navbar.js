@@ -28,11 +28,11 @@ const Navbar = () => {
         onClick={() => setToggle((prev) => !prev)}
         />
 
-        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 min-w-[140px] mx-4 my-2 rounded-xl sidebar`}>
+        <div className={`${toggle ? 'flex' : 'hidden'}  bg-gradient-to-r from-gray-900  p-6  absolute top-20 right-0 min-w-[140px] mx-4 my-2 rounded-xl sidebar`}>
           
            <ul className=' list-none flex flex-col  justify-end items-center flex-1'>
            {navLinks.map((nav, index) => (
-             <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white ` }>
+             <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white ` }>
                <a href={`#${nav.id}`}>
                  {nav.title}
                </a>
