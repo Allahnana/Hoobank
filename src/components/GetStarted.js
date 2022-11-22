@@ -10,7 +10,7 @@ const GetStarted = () =>
            <p className='font-poppins font-medium text-[18px] leading-[23px]'>
              <span className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-gray-300'>Get</span>
            </p>
-            <img className='w-[23px] h-[23px] object-contain' src={arrowUp} alt='arrow'/> 
+            <img className='w-[23px] h-[23px] object-contain ml-2' src={arrowUp} alt='arrow'/> 
         </div>
            <p className='font-poppins font-medium text-[18px] leading-[23px]'>
              <span className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-gray-300'>Started</span>
