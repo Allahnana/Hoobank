@@ -34,7 +34,7 @@ const Business = () => {
          With the right credit card,
          you can improve your financial life by building credit, 
          earning rewards and saving money.
-         But with hundreds of credit card on the market. fdkjvrs</p>
+         But with hundreds of credit card on the market.</p>
 
          <Button styles='mt-10'/>
       </div>
