@@ -23,6 +23,18 @@ const Billing = () => (
 
         </p>
 
+        <div className=' flex flex-row flex-wrap sm:mt-10 mt-6'>
+          <img className=' w-[128px] h-[42px] object-contain  cursor-pointer' src={apple} alt ="google_play"/>
+
+          <img className=' w-[128px] h-[42px] object-contain mr-5 cursor-pointer' src={google} alt ="google_play"/>
+
+        </div>
+
+        {/* <div className=' flex flex-row flex-wrap sm:mt-10 mt-6'>
+          <img className=' w-[128px] h-[42px] object-contain mr-5 cursor-pointer' src={google} alt ="google_play"/>
+
+        </div> */}
+
       </div>
 
     </section>
